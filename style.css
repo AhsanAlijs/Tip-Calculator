@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #302441;
+    height: 100vh;
+}
+.cal{
+    padding: 30px;
+    border: 1px solid #155484;
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+.main-head{
+    font-size: x-large;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #155484;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+}
+.mian-slect{
+    margin-top: 20px;
+}
+.slect{
+    margin-left:60px;
+    width: 299px;
+    padding: 5px;
+    color: rgb(87, 69, 190);
+    font-size: larger;
+    font-weight: 600;
+    outline: none;
+    border-radius: 5px;
+}
+.title{
+    color: #155484;
+    font-size: x-large;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ammount{
+    padding: 5px;
+    color: rgb(87, 69, 190);
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+.ammount::placeholder{
+    color: #5745be;
+}
+.perso{
+    color: #155484;
+    font-size: x-large;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.person{
+    margin-left: 15px;
+    width: 300px;
+    padding: 5px;
+    color: #5745be;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+.main-person{
+    margin-top: 20px;
+}
+.calculate{
+    text-align: end;
+    margin-top: 20px;
+}
+.sub-btn{
+
+    padding: 10px 20px 10px 20px;
+    background-color: #155484;
+    color: #ffffff;
+    font-size: larger;
+    font-weight:bolder;
+    border: none;
+    border-radius: 10px;
+}
+.cal-result{
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    color: #155484;
+    font-weight:bolder;
+    line-height:2;
+}
+.tip-re{
+    border: 1px solid #5745be;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+.P:hover{
+    background-color: #5745be;
+    color: white;
+}

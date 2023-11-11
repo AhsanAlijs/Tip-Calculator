@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./fav icon/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="cal">
+           <p class="main-head">Tip Calculator</p>
+           <label class="title">Amount</label>
+           <input type="number" placeholder="$" class="ammount">
+           <div class="mian-slect">
+            <label class="title">Tip</label>
+           <select class="slect">
+            <option value="0" selected>No tip 🥲</option>
+			<option value="10">10% 😒</option>
+			<option value="15">15% 🙂</option>
+			<option value="20">20% 🥺</option>
+           </select>
+           </div>
+           <div class="main-person">
+            <label class="perso">Person</label>
+           <input type="number" class="person">
+           </div>
+           <div class="calculate">
+            <button class="sub-btn">Calculate</button>
+           </div>
+
+           <div class="cal-result" id="result">
+
+           </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
